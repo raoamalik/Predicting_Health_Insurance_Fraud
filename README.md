@@ -7,5 +7,5 @@ Column transformation pipeline is applied to convert selected categorical featur
 Three classification models are trained: logistic regression (LR), random forest (RF), and gradient tree boosting (GTB). 
 The performance of the models is evaluated using ROC, AUC, ANOVA, and post hoc using Tukey (HSD).
 Gradient tree boosting outperforms both LR and RF with an AUC score of about 84%.
-The final trained model can be used on a similarly large dataset containing claims by the service providers to predict whether their behavior is fraudulent or not. The results should be taken with a grain of salt, as the model focuses on high recall as compared to precision. This increases the likelihood of catching a fraudster at the expense of more investigation by the authorities.
+The final trained model can be used on a similarly large dataset, containing claims by the service providers, to predict whether their behavior is fraudulent or not. The results should be taken with a grain of salt, as the model focuses on high recall as compared to precision. This increases the likelihood of catching a fraudster at the expense of more investigation by the authorities.
 
